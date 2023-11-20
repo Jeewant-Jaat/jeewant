@@ -8,6 +8,12 @@ import tourImg07 from "../images/tour-img07.jpg";
 import tourImg08 from "../images/tour-img08.jpg";
 import tourImg09 from "../images/tour-img09.jpg";
 import tourImg10 from "../images/tour-img10.jpg";
+import tourImg11 from "../images/tour-img11.jpg";
+import tourImg12 from "../images/tour-img12.jpg";
+import tourImg13 from "../images/tour-img13.jpg";
+import tourImg14 from "../images/tour-img14.jpg";
+import tourImg15 from "../images/tour-img15.jpg";
+import tourImg16 from "../images/tour-img16.jpg";
 
 const tours = [
   {
@@ -163,7 +169,7 @@ const tours = [
       },
     ],
     avgRating: 4.5,
-    photo: tourImg03,
+    photo: tourImg08,
     featured: false,
   },
   {
@@ -182,7 +188,7 @@ const tours = [
       },
     ],
     avgRating: 4.5,
-    photo: tourImg07,
+    photo: tourImg09,
     featured: false,
   },
   {
@@ -200,6 +206,124 @@ const tours = [
     photo: tourImg10,
     featured: false,
   },
+  {
+    id: "11",
+    title: "Scotland of the East India",
+    city: "Shillong",
+    distance: 500,
+    address: 'Shillong, Meghalaya, India',
+    price: 75,
+    maxGroupSize: 8,
+    desc: "A beautiful city encircled by pine trees and  home to numerous waterfalls.  Shillong is also famous as the music capital of India",
+    reviews: [
+      {
+        name: "Mukesh Chaudhary",
+        rating: 4.6,
+      },
+    ],
+    avgRating: 4.5,
+    photo: tourImg11,
+    featured: false,
+  },
+  {
+    id: "12",
+    title: "The Hill-Station with Rich Colonial History",
+    city: "Shimla, H.P",
+    distance: 500,
+    address: 'Shimla, Himachal Pradesh, India',
+    price: 79,
+    maxGroupSize: 10,
+    desc: "Shimla is the capital of Himachal Pradesh and a popular hill-station among Indian families and honeymooners.",
+    reviews: [
+      {
+        name: "Mukesh Kumar",
+        rating: 4.6,
+      },
+      {
+         name: "Urjit",
+         rating: 5,
+       },
+    ],
+    avgRating: 4.5,
+    photo: tourImg12,
+    featured: true,
+  },
+  {
+    id: "13",
+    title: "One Hundred Thousand Islands",
+    city: "Lakshadweep, India",
+    distance: 500,
+    address: 'Lakshadweep UT, India',
+    price: 79,
+    maxGroupSize: 10,
+    desc: "The smallest union territory of India has only 36 islands having a total area of 32 sq. kilometres.",
+    reviews: [
+      {
+        name: "Mukesh Kumar",
+        rating: 4.6,
+      },
+    ],
+    avgRating: 4.5,
+    photo: tourImg13,
+    featured: true,
+  },
+  {
+    id: "14",
+    title: "The Capital City of India",
+    city: "NCR, India",
+    distance: 500,
+    address: 'Delhi NCR, India',
+    price: 79,
+    maxGroupSize: 10,
+    desc: "Red Fort, Jama Masjid, Humayun's Tomb,  Akshardham Temple, the Lotus Temple, the ISKON Temple and Purana Qila are some famous Places of NCR",
+    reviews: [
+      {
+        name: "Mukesh Chaudhary",
+        rating: 4.6,
+      },
+    ],
+    avgRating: 4.5,
+    photo: tourImg14,
+    featured: true,
+  },
+  {
+    id: "15",
+    title: "Gateway to Punjab - Golden Temple",
+    city: "Amritsar, Punjab",
+    distance: 500,
+    address: 'Amritsar, Punjab, India',
+    price: 79,
+    maxGroupSize: 10,
+    desc: "Home of the glorious Golden Temple, the iconic city of Amritsar, portrays the heroic character of Punjab.  This place is also famous for its Jallianwala Bagh massacre and its proximity to Wagah Border.",
+    reviews: [
+      {
+         name: "Urjit",
+         rating: 5,
+       },
+    ],
+    avgRating: 4.5,
+    photo: tourImg15,
+    featured: true,
+  },
+  {
+    id: "16",
+    title: "The queen of hill-stations",
+    city: "Dehradun, Uttarakhand",
+    distance: 500,
+    address: 'Mussoorie, Dehradun, Uttarakhand, India',
+    price: 79,
+    maxGroupSize: 10,
+    desc: "With a backdrop of the Shivalik range of Himalayas and doon valley, Mussoorie, also known as Queen of The Hills, stands at an altitude of 7000 feet above sea level.",
+    reviews: [
+      {
+        name: "Mukesh Kumar",
+        rating: 4.6,
+      },  
+    ],
+    avgRating: 4.5,
+    photo: tourImg16,
+    featured: true,
+  }
 ];
 
 export default tours;
